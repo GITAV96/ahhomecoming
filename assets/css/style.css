@@ -1,17 +1,17 @@
 /* 
-   Hansani & Ashan - Wedding Invitation Styles
+   Ashan & Hansani - Homecoming Invitation Styles
    Color Palette:
-   - Primary Accent (Names, Icons, Borders): #59ADC7
-   - Dark Text: #333333
+   - Primary Accent (Names, Icons, Borders): #A21636
+   - Dark Text: #2D2D2D
    - Secondary Text: #555555
    - Background: #FFFFFF
    - Soft Background: #FAFAFA
 */
 
 :root {
-    --primary-color: #59ADC7;
-    --primary-dark: #3b89a3;
-    --text-dark: #333333;
+    --primary-color: #A21636;
+    --primary-dark: #800a1d;
+    --text-dark: #2D2D2D;
     --text-light: #666666;
     --bg-color: #FFFFFF;
     --bg-alt: #fdfdfd;
@@ -295,9 +295,9 @@ h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-script);
     font-size: 4rem;
     color: var(--primary-color);
-    opacity: 0.7;
+    opacity: 0.9;
     display: inline-block;
-    margin: -10px 0;
+    margin: -20px 0;
 }
 
 /* Close Together Scroll Animation */
@@ -335,7 +335,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-serif);
     font-size: 0.9rem;
     letter-spacing: 1px;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
     color: var(--text-dark);
 }
 
@@ -711,7 +711,8 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     .ampersand {
-        font-size: 3rem;
+        font-size: 2.5rem;
+        margin: -10px 0;
     }
 
     .invite-text {
