@@ -117,8 +117,8 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     /* --- 2. Countdown Timer --- */
-    // Set the date we're counting down to: August 14, 2026, 09:30:00 AM
-    const countDownDate = new Date("Aug 14, 2026 09:30:00").getTime();
+    // Set the date we're counting down to: August 16, 2026, 06:30:00 PM
+    const countDownDate = new Date("Aug 16, 2026 18:30:00").getTime();
 
     const updateCountdown = () => {
         const now = new Date().getTime();
